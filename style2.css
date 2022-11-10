@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: black;
+    height: 90px;
+}
+
+.name {
+    font-style: normal;
+    font-size: 35px;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+    margin-left: 6px;
+
+
+
+}
+
+.nav-left {
+    margin-top: 7px;
+    padding: 10px 7%;
+
+}
+
+
+
+.nav-center {
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.nav-center a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+    /* font-size: large; */
+}
+.nav-center a:hover{
+    color: green;
+}
+.nav-right {
+    margin-top:  30px;;
+    margin-right: 7%;
+
+
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+
+    padding: 15px;
+    
+}
+.nav-right a:hover{
+    color: green;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 15%;
+    margin-left: 600px; */
+}
+
+.section p {
+    font-weight: 900;
+    font-size: 60px;
+
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+    margin-left: 525px;
+    margin-top: 200px;
+}
+
+/* .section button {
+    margin: auto;
+    border-radius: 50px;
+    width: 25%;
+    height: 25%;
+
+    background-color: rgb(121, 230, 121);
+
+}
+
+.section button i {
+    font-weight: 700;
+    font-style: normal;
+} */
+
+
+.section::before {
+    content: "";
+    background: url(https://img.freepik.com/premium-photo/glossy-3d-render-design-spotify-social-network-media-logo-symbol-white-background_216606-65.jpg?w=2000);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+ .box{
+    display: flex;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(99, 214, 99);
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+    margin-top: 30px;
+
+    
+}
+
+.box:hover{
+    transform: scale(1.1);
+    
+
+}
+.first-head{
+    margin-top: 90px;
+    margin-left: 600px;
+    width: 20%;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+    font-size: 45px;
+    
+
+}
+.image{
+    /* padding: 10px 2%; */
+    margin-left: 7%;
+}
+.image img{
+    width: 150px;
+    border-radius: 50%;
+    height: 135px;
+    margin-top: 90px;
+}
+.services-container{
+    display: flex;
+    /* background-color: rgb(243, 239, 239); */
+}
+h3{
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+font-size: 23px;
+
+}
+.para p{margin-top: 30px;
+    
+    font-size: 18px;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif; 
+}
+.para{
+    margin-top: 40px;
+}
+.extra{
+    background-color:  rgb(243, 239, 239);
+    height: 30%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .paragraph p{
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif; 
+    font-size: 50px;
+    font-weight: 750;
+ }
+ .second-head{ font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+    margin-top: 90px;
+    margin-left: 600px; 
+    font-weight: 1000;
+    font-size: 40px;
+     
+ }
+ .full-ques{
+
+     margin-top: 70px;
+     margin-left: 80px;
+     margin-right:80px ;
+     
+ }
+ .full-ques2{
+    margin-left: 80px;
+    margin-right:80px ;
+ }
+ .full-ques3{
+
+    
+    margin-left: 80px;
+    margin-right:80px ;
+    
+}
+.full-ques4{
+
+
+    margin-left: 80px;
+    margin-right:80px ;
+    
+}
+
+ .questions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+ }
+ .questions a{
+    color: black;
+    text-decoration: none;
+ }
+ .questions p{
+    font-size: 22px;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+    width: 100%;
+    font-weight: 700;
+ }
+
+ .questions:hover{
+    text-decoration: underline;
+    background-color:  rgb(243, 239, 239);
+    cursor: pointer;
+ }
+ hr{
+    border: 1px solid  rgb(212, 208, 208) ;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+    
+ }
+ 
+.questions-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+ }
+ .questions-2 a{
+    color: black;
+    text-decoration: none;
+ }
+ .questions-2 p{
+    font-size: 22px;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+    width: 100%;
+    font-weight: 700;
+ }
+ .questions-2:hover{
+    text-decoration: underline;
+    background-color:  rgb(243, 239, 239);
+    cursor: pointer;
+ }
+ .questions-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+ }
+ .questions-3 a{
+    color: black;
+    text-decoration: none;
+ }
+ .questions-3 p{
+    font-size: 22px;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+    width: 100%;
+    font-weight: 700;
+ }
+ .questions-3:hover{
+    text-decoration: underline;
+    background-color:  rgb(243, 239, 239);
+    cursor: pointer;
+ }
+ .questions-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+ }
+ .questions-4 a{
+    color: black;
+    text-decoration: none;
+ }
+ .questions-4 p{
+    font-size: 22px;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+    width: 100%;
+    font-weight: 700;
+ }
+ .questions-4:hover{
+    text-decoration: underline;
+    background-color:  rgb(243, 239, 239);
+    cursor: pointer;
+ }
+ /* .extra2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(243, 239, 239) ;
+    height: 500px;
+    margin-top: 80px;
+ }
+ .extra2 p{
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif; 
+    font-size: 80px;
+    font-weight: 1000;
+ }
+ .box2{
+    margin-left: 250px;
+    margin-top: 50px;
+    
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(99, 214, 99);
+ }
+ .box2 i{
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif; 
+    font-style: normal;
+    margin-left: 20px;
+    margin-top: 50px;
+ } */
+ /* .section2{
+    background-color:rgb(243, 239, 239);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:  60px; ;
+ } */
+ .section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(243, 239, 239) ;
+    margin-top: 80px;
+    height: 30%;
+    /* margin-top: 15%;
+    margin-left: 600px; */
+}
+
+.section2 p {
+    font-weight: 900;
+    font-size: 60px;
+
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+    margin-left: 110px;
+    margin-top: 200px;
+}
+.box2{
+    
+    display: flex;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(99, 214, 99);
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+.box2:hover{
+    transform: scale(1.1);
+    }
+    .end{
+        margin-top: 0;
+        background-color: black;
+        height: 800px;
+        color: white;
+    }
+.promo a i{
+   
+    margin-top: 30%;
+    margin-left: 100px;
+}
+.COMPANY{
+    margin-left: 60px;
+    margin-top: 40%;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+
+}
+.COMPANY ul li{
+    list-style: none;
+    padding: 20px 0px;
+    font-size: 18px;
+}
+.COMPANY ul li:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.last-page{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+}
+.communities{
+    margin-left: 10px;
+    margin-top: 40%;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+}
+.communities ul li{
+    list-style: none;
+    padding: 20px 0px;
+    font-size: 18px;
+}
+.communities ul li:hover{
+    color: green;
+    cursor: pointer;
+}
+.links{
+    margin-top: 40%; 
+    margin-left: 10px;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+}
+.links ul li{
+    list-style: none;
+    padding: 20px 0px;
+    font-size: 18px;
+}
+.links ul li:hover{
+    color: green;
+    cursor: pointer;
+}
+.logos{
+    margin-top: 40%;
+     
+}
+.logos a{
+    padding: 6px;
+    color: gray;
+    
+   
+
+}
+.logos a:hover{
+    color: green;
+}
+.policies{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 100px;
+    
+}
+.policies a{
+    padding-right: 30px;
+    color: gray;
+    text-decoration: none;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+    font-size: 15px;
+}
+.policies a:hover{
+    color: green;
+}
+.pagename{
+    margin-left: 80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.pagename a{
+    color: gray;
+    text-decoration: none;
+    padding: 9px;
+}
+.pagename a:hover{
+    color: green;
+}
+.pagename {
+    color: gray;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+    
+}
+
+
+
